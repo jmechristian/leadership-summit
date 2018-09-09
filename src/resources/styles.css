@@ -76,9 +76,9 @@ footer .footer_copyright {
   overflow: hidden;
 }
 
-.carrousel_image {
+/* .carrousel_image {
   background-size: cover !important;
-}
+} */
 
 /*====================
         COUNTDOWN
@@ -91,8 +91,7 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-  background: #ff4800;
-  font-size: 19px;
+  font-size: 16px;
   padding: 10px;
   display: inline-block;
   text-transform: uppercase;
@@ -100,23 +99,28 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
   display: flex;
-  background: #d93d00;
   padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
-  font-size: 70px;
-  border-right: 1px solid #f44336;
+  font-size: 48px;
   margin-right: 14px;
-  padding-right: 49px;
+  padding-right: 32px;
 }
+
+.countdown_wrapper .countdown_time_days {
+  font-size: 48px;
+  margin-right: 14px;
+  padding-right: 16px;
+}
+
 .countdown_wrapper .countdown_item:last-child .countdown_time {
   border: none;
 }
 
 .countdown_wrapper .countdown_tag {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 7px;
 }
 

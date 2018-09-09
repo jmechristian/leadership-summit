@@ -6,6 +6,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 import IconButton from "@material-ui/core/IconButton";
 import SideDrawer from "./SideDrawer";
 
+import logo from "../../resources/images/LS19_LOGO-WHITE.png";
+
 export class Header extends Component {
   state = {
     drawerOpen: false,
@@ -35,15 +37,14 @@ export class Header extends Component {
       <AppBar
         position="fixed"
         style={{
-          backgroundColor: this.state.headerShow ? "#2f2f2f" : "transparent",
+          backgroundColor: this.state.headerShow ? "#003346" : "transparent",
           boxShadow: "none",
-          padding: "10px 0"
+          padding: "15px 0"
         }}
       >
         <Toolbar>
           <div className="header_logo">
-            <div className="font_righteous header_logo_venue">The Venue</div>
-            <div className="header_logo_title">Musical Events</div>
+            <img src={logo} alt="Logo" />
           </div>
           <IconButton
             aria-label="Menu"

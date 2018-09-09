@@ -37,10 +37,9 @@ export class Countdown extends Component {
     return (
       <Slide left delay={1000}>
         <div className="countdown_wrapper">
-          <div className="countdown_top">Event Starts In:</div>
           <div className="countdown_bottom">
             <div className="countdown_item">
-              <div className="countdown_time">{this.state.days}</div>
+              <div className="countdown_time_days">{this.state.days}</div>
               <div className="countdown_tag">Days</div>
             </div>
             <div className="countdown_item">

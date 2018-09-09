@@ -1,17 +1,16 @@
 import React from "react";
 import Slider from "react-slick";
 
-import slide_one from "../../resources/images/slide_one.jpg";
-import slide_two from "../../resources/images/slide_two.jpg";
-import slide_three from "../../resources/images/slide_three.jpg";
+import slide_one from "../../resources/images/slide-one.png";
+import slide_two from "../../resources/images/slide-two.png";
+import slide_three from "../../resources/images/slide-three.png";
 
 const Carrousel = () => {
   const settings = {
     dots: false,
     autoplay: true,
     infinite: true,
-    speed: 600,
-    draggable: true,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1
   };
